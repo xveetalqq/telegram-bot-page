@@ -1,54 +1,75 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Чат-бот RDbobBot</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f0f0f0;
-      text-align: center;
-      padding: 40px;
-    }
-    .container {
-      background: white;
-      max-width: 500px;
-      margin: auto;
-      border-radius: 12px;
-      padding: 30px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-      color: #333;
-    }
-    p {
-      font-size: 18px;
-      color: #555;
-    }
-    .btn {
-      display: inline-block;
-      background-color: #2AABEE;
-      color: white;
-      padding: 15px 30px;
-      text-decoration: none;
-      border-radius: 8px;
-      font-size: 18px;
-      margin-top: 20px;
-      transition: background 0.3s ease;
-    }
-    .btn:hover {
-      background-color: #229ac3;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Бот для Telegram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Привіт! Це RDbobBot</h1>
-    <p>Бот допоможе вам отримати погоду, випадкові факти та час. Просто натисніть кнопку нижче:</p>
-    <a href="https://t.me/RDbobBot" target="_blank">
-      <button>Перейти до RDbobBot</button>
-    </a>
-  </div>
+    <header>
+        <h1>Привіт, я твій Telegram бот!</h1>
+    </header>
+
+    <section>
+        <h2>Доступні функції:</h2>
+        <ul>
+            <li>Отримати погоду</li>
+            <li>Отримати випадковий факт</li>
+            <li>Переклад тексту</li>
+            <li>Дізнатися поточний час</li>
+            <li>Отримати жарт</li>
+            <li>Отримати новину</li>
+            <li>Переглянути картинку</li>
+        </ul>
+        <p>Для того, щоб почати використовувати бота, просто натисни на кнопку нижче:</p>
+        <a href="https://t.me/hellper1bot" target="_blank">
+            <button>Запустити Бота</button>
+        </a>
+    </section>
+
+    <footer>
+        <p>© 2025 Telegram Bot. Зроблено з любов'ю!</p>
+    </footer>
 </body>
 </html>
